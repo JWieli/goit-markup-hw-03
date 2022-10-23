@@ -1,0 +1,266 @@
+:root {
+  --black2: #212121;
+  --black: #000000;
+  --blue: #2196f3;
+  --background: #2f303a;
+  --main-white: #ffffff;
+  --second-white: #f5f4fa;
+  --silver: #757575;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--black);
+  margin: 0;
+}
+.footer {
+  background-color: var(--background);
+  width: 1600px;
+  height: 252px;
+}
+
+.photos {
+  border: 1px;
+}
+
+.Webstudio1 {
+  font-weight: bold;
+  width: 145px;
+  height: 31px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.17;
+  color: var(--blue);
+}
+.Webstudio2 {
+  font-weight: bold;
+  color: var(--black);
+  width: 145px;
+  font-weight: 700;
+  height: 31px;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.17;
+}
+.Webstudio3 {
+  font-weight: bold;
+  color: var(--main-white);
+  width: 145px;
+  font-weight: 700;
+  height: 31px;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.17;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  width: 135px;
+  height: 16px;
+  color: var(--silver);
+  text-decoration: none;
+}
+
+.nav1 {
+  width: 53px;
+  height: 16px;
+  font-weight: 500;
+  color: var(--black2);
+  font-size: 14px;
+  text-decoration: none;
+  margin: 0px;
+}
+.nav2 {
+  font-weight: 500;
+  font-size: 14px;
+  width: 58px;
+  color: var(--black2);
+  height: 16px;
+  text-decoration: none;
+}
+.nav3 {
+  font-weight: 500;
+  font-size: 14px;
+  width: 51px;
+  color: var(--black2);
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 254px;
+  height: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 453px;
+  margin-right: 893px;
+}
+
+.hugetext {
+  width: 696px;
+  height: 120px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--white);
+  text-align: center;
+  color: var(--main-white);
+}
+.section1 {
+  background-color: var(--background);
+}
+
+.button-order {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--main-white);
+  background-color: var(--blue);
+  border-style: none;
+  border: 0;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--black2);
+}
+
+.box {
+  color: var(--silver);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.3px;
+}
+
+.our-team {
+  background-color: var(--second-white);
+}
+
+.our-team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: Center;
+}
+
+.photos {
+  background-color: var(--main-white);
+  width: 270px;
+  height: 368px;
+}
+
+.names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: Center;
+  color: var(--black2);
+}
+
+.job-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: Center;
+  color: var(--silver);
+}
+
+.address {
+  width: 246px;
+  height: 21px;
+  color: var(--main-white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.contact-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--silver);
+}
+
+.buttons {
+  width: 121px;
+  height: 38px;
+  background-color: var(--second-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: Center;
+  border: none;
+  cursor: pointer;
+}
+
+.portfolio-all {
+  width: 370px;
+  height: 404px;
+  background-color: var(--second-white);
+}
+
+.projects {
+  width: 322px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.description {
+  width: 322px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--silver);
+}
+
+.hover:hover,
+.hover:focus {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.hover-button:hover,
+.hover-button:focus {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+header {
+  width: 1600px;
+  height: 80px;
+}
+
+.main-header {
+  width: 145px;
+  height: 31px;
+  margin: 24px 1240px 25px 215px;
+}
+
+menu {
+  display: flex;
+  flex-direction: row;
+}
