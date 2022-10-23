@@ -12,17 +12,25 @@ body {
   color: var(--black);
   margin: 0;
 }
-.footer {
-  background-color: var(--background);
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  align-items: center;
+}
+
+/* header {
   width: 1600px;
-  height: 252px;
-}
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+} */
 
-.photos {
-  border: 1px;
-}
-
-.Webstudio1 {
+.Webstudio-header-blue {
   font-weight: bold;
   width: 145px;
   height: 31px;
@@ -32,8 +40,9 @@ body {
   text-decoration: none;
   line-height: 1.17;
   color: var(--blue);
+  margin: 24px 0 25px 0;
 }
-.Webstudio2 {
+.Webstudio-header {
   font-weight: bold;
   color: var(--black);
   width: 145px;
@@ -43,6 +52,7 @@ body {
   font-size: 26px;
   text-decoration: none;
   line-height: 1.17;
+  margin: 24px 0 25px 0;
 }
 .Webstudio3 {
   font-weight: bold;
@@ -56,11 +66,88 @@ body {
   line-height: 1.17;
 }
 
+.main-header {
+  width: 145px;
+  height: 31px;
+  padding: 24px 93px 25px 215px;
+}
+
+.header-list1 {
+  display: flex;
+  width: 254px;
+  margin: 32px 371px 32px 0;
+  justify-content: space-between;
+  line-height: 1.17rem;
+  padding-left: 93px;
+}
+
 ul {
   list-style-type: none;
 }
 
-.contact {
+/* .contact {
+  font-weight: 500;
+  font-size: 14px;
+  width: 135px;
+  height: 16px;
+  color: var(--silver);
+  text-decoration: none;
+} */
+
+menu {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+/* .links-in-header {
+  display: flex;
+  width: 254px;
+  height: 16px;
+  margin: auto;
+  flex-direction: row;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  justify-content: space-around;
+} */
+.nav1 {
+  font-weight: 500;
+  color: var(--black2);
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.nav2 {
+  font-weight: 500;
+  font-size: 14px;
+  width: 58px;
+  color: var(--black2);
+  text-decoration: none;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.nav3 {
+  font-weight: 500;
+  font-size: 14px;
+  width: 51px;
+  color: var(--black2);
+  text-decoration: none;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.header-list2 {
+  display: flex;
+  padding-left: 371px;
+  margin: 32px 387px 32px 0;
+  justify-content: space-between;
+  line-height: 1.17rem;
+  padding-left: 371px;
+  width: 295px;
+}
+
+.contact-mail {
   font-weight: 500;
   font-size: 14px;
   width: 135px;
@@ -69,31 +156,15 @@ ul {
   text-decoration: none;
 }
 
-.nav1 {
-  width: 53px;
+.contact-phone {
+  font-weight: 500;
+  font-size: 14px;
+  width: 110px;
   height: 16px;
-  font-weight: 500;
-  color: var(--black2);
-  font-size: 14px;
-  text-decoration: none;
-  margin: 0px;
-}
-.nav2 {
-  font-weight: 500;
-  font-size: 14px;
-  width: 58px;
-  color: var(--black2);
-  height: 16px;
+  color: var(--silver);
   text-decoration: none;
 }
-.nav3 {
-  font-weight: 500;
-  font-size: 14px;
-  width: 51px;
-  color: var(--black2);
-  text-decoration: none;
-}
-
+/* 
 nav {
   display: flex;
   flex-direction: row;
@@ -101,9 +172,8 @@ nav {
   height: 16px;
   margin-top: 32px;
   margin-bottom: 32px;
-  margin-left: 453px;
   margin-right: 893px;
-}
+} */
 
 .hugetext {
   width: 696px;
@@ -152,6 +222,18 @@ h4 {
   letter-spacing: 0.3px;
 }
 
+.lorem {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 15px;
+}
+
+.list-lorem {
+  width: calc((100% - 45px) / 4);
+  padding: 15px;
+}
+
 .our-team {
   background-color: var(--second-white);
 }
@@ -183,6 +265,16 @@ h4 {
   line-height: 1.17;
   text-align: Center;
   color: var(--silver);
+}
+
+.footer {
+  background-color: var(--background);
+  width: 1600px;
+  height: 252px;
+}
+
+.photos {
+  border: 1px;
 }
 
 .address {
@@ -245,22 +337,7 @@ h4 {
 
 .hover-button:hover,
 .hover-button:focus {
-  color: var(--blue);
+  background-color: var(--blue);
+  color: var(--main-white);
   cursor: pointer;
-}
-
-header {
-  width: 1600px;
-  height: 80px;
-}
-
-.main-header {
-  width: 145px;
-  height: 31px;
-  margin: 24px 1240px 25px 215px;
-}
-
-menu {
-  display: flex;
-  flex-direction: row;
 }
