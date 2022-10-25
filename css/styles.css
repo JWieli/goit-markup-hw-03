@@ -23,7 +23,7 @@ body {
 header {
   width: 1600px;
   height: 80px;
-  border: 1px solid rgba(236, 236, 236, 1);
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 .Webstudio-header-blue {
   font-weight: bold;
@@ -293,8 +293,8 @@ h3 {
   height: 252px;
   width: 1600px;
   flex-direction: column;
-  padding: 0;
   margin: 0;
+  padding-left: 215px;
 }
 
 .Webstudio-footer-blue {
@@ -324,18 +324,17 @@ h3 {
 .footer-main-header {
   width: 145px;
   height: 31px;
-  padding: 60px 1240px 0px 215px;
+  margin: 60px 1240px 0px 0px;
 }
 
 .footer-list {
   display: flex;
-  margin: 20px 1139px 120px 0;
-  justify-content: space-between;
+  margin: 20px 1138px 60px 0px;
   line-height: 1.17rem;
-  width: 246px;
+  width: 247px;
   height: 81px;
   flex-direction: column;
-  padding-left: 215px;
+  padding: 0;
 }
 
 .photos {
@@ -350,7 +349,6 @@ h3 {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-  width: 100%;
 }
 
 .mail-footer {
@@ -370,6 +368,21 @@ h3 {
   height: 21px;
 }
 
+.main-sections-portfolio {
+  width: 1170px;
+  height: 1360px;
+  margin: 94px 215px 94px 215px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-section-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 572px;
+  height: 54px;
+}
+
 .buttons {
   width: 121px;
   height: 38px;
@@ -381,6 +394,7 @@ h3 {
   border: none;
   cursor: pointer;
   border-radius: 4px;
+  margin-right: 8px;
 }
 
 .portfolio-all {
@@ -418,4 +432,39 @@ h3 {
   color: var(--main-white);
   cursor: pointer;
   border-radius: 4px;
+}
+
+.second-list-portfolio {
+  display: flex;
+  flex-direction: row;
+  margin: 0 215px 94px 215px;
+  height: 1272px;
+  width: 1170px;
+}
+
+.second-list-photos {
+  width: 370px;
+  height: 404px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.second-list-photos-second-row {
+  width: 370px;
+  height: 404px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.second-list-photos-third-row {
+  width: 370px;
+  height: 404px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
 }
