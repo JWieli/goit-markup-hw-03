@@ -213,7 +213,6 @@ h3 {
 .segments {
   display: flex;
   flex-direction: column;
-  width: 1170px;
 }
 
 .segments-header {
@@ -225,7 +224,6 @@ h3 {
 .segments-list {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
 }
 
 .segments-photos {
