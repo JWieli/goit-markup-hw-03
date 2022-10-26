@@ -245,17 +245,11 @@ h3 {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  width: 210px;
-  height: 42px;
-  margin: 94px 695px 0 695px;
 }
 
 .our-team-photos {
-  width: 1170px;
-  height: 368px;
   display: flex;
   flex-direction: row;
-  margin: 50px 215px 94px 215px;
 }
 .photos {
   background-color: var(--main-white);
