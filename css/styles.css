@@ -14,14 +14,11 @@ body {
 }
 
 .container {
-  display: flex;
   margin: 0 auto;
-  box-sizing: border-box;
-  align-items: center;
+  width: 1200px;
 }
 
 header {
-  width: 1600px;
   height: 80px;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
@@ -131,7 +128,6 @@ menu {
 
 .section1 {
   background-color: var(--background);
-  width: 1600px;
   height: 600px;
   align-items: center;
   display: flex;
@@ -291,7 +287,6 @@ h3 {
 .footer {
   background-color: var(--background);
   height: 252px;
-  width: 1600px;
   flex-direction: column;
   margin: 0;
   padding-left: 215px;
