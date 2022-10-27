@@ -212,6 +212,10 @@ h3 {
   flex-direction: column;
 }
 
+section {
+  padding: 94px 0;
+}
+
 .segments-header {
   text-align: center;
   font-size: 36px;
@@ -272,6 +276,10 @@ h3 {
 .footer {
   background-color: var(--background);
   flex-direction: column;
+}
+
+.section-footer {
+  padding: 60px 0;
 }
 
 .Webstudio-footer-blue {
