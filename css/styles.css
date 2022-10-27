@@ -348,6 +348,7 @@ section {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0px;
 }
 
  /*czy to jest potrzebne? */
@@ -377,6 +378,7 @@ section {
   width: 370px;
   height: 404px;
   background-color: var(--second-white);
+  border: 1px solid rgba(238, 238, 238, 1)
 }
 
 .projects {
@@ -385,6 +387,7 @@ section {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  padding: 0 24px
 }
 
 .description {
@@ -394,6 +397,7 @@ section {
   font-size: 16px;
   line-height: 1.88;
   color: var(--silver);
+  padding: 0 24px
 }
 
 .hover:hover,
