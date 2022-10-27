@@ -154,6 +154,13 @@ menu {
   margin: auto;
 }
 
+.button-place {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
 .button-order {
   cursor: pointer;
   font-size: 16px;
@@ -214,14 +221,16 @@ h3 {
   flex-direction: column;
 }
 
-section {
-  padding: 94px 0;
+.section {
+  padding-top: 94px;
 }
 
 .segments-header {
   text-align: center;
   font-size: 36px;
   line-height: 1.17rem;
+  padding-bottom: 50px;
+  /* czy tu powinien być też margin:0? bo strona się rozjeżdza ale z drugiej strony powstaje 29.88+90 zamiast po prostu 90 u góry_ */
 }
 
 .segments-list {
@@ -252,6 +261,7 @@ section {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  padding-bottom: 94px;
 }
 .photos {
   background-color: var(--main-white);
