@@ -33,6 +33,7 @@ header {
   line-height: 1.17;
   color: var(--blue);
   margin: 24px 0 25px 0;
+  /* czy lepiej padding: 25px 0; */
 }
 .Webstudio-header {
   font-weight: bold;
@@ -45,6 +46,7 @@ header {
   text-decoration: none;
   line-height: 1.17;
   margin: 24px 0 25px 0;
+  /* i tu też padding czy lepiej? */
 }
 
 .main-header {
@@ -102,7 +104,8 @@ menu {
 
 .header-list2 {
   display: flex;
-  margin: 32px 227px 32px 0;
+  padding: 32px 0;
+  /* margin: 32px 0px 32px 0; */
   line-height: 1.17rem;
   width: 295px;
   gap: 50px;
@@ -254,7 +257,14 @@ section {
 .photos {
   background-color: var(--main-white);
   width: 270px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(238, 238, 238, 1);
   height: 368px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+
 }
 
 .names {
@@ -351,7 +361,7 @@ section {
   padding: 0px;
 }
 
- /*czy to jest potrzebne? */
+/*czy to jest potrzebne? */
 
 .main-section-buttons {
   display: flex;
@@ -366,11 +376,11 @@ section {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: Center;
   border: none;
   cursor: pointer;
   border-radius: 4px;
   margin-right: 8px;
+
   /* dlaczego nie działa tu gap? */
 }
 
@@ -378,7 +388,7 @@ section {
   width: 370px;
   height: 404px;
   background-color: var(--second-white);
-  border: 1px solid rgba(238, 238, 238, 1)
+  border: 1px solid rgba(238, 238, 238, 1);
 }
 
 .projects {
@@ -387,7 +397,7 @@ section {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  padding: 0 24px
+  padding: 0 24px;
 }
 
 .description {
@@ -397,7 +407,18 @@ section {
   font-size: 16px;
   line-height: 1.88;
   color: var(--silver);
-  padding: 0 24px
+  padding: 0 24px;
+}
+
+.second-list-portfolio {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  padding: 0;
+}
+.main-portfolio {
+  padding: 94px 0;
 }
 
 .hover:hover,
@@ -413,12 +434,3 @@ section {
   cursor: pointer;
   border-radius: 4px;
 }
-
-.second-list-portfolio {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  align-items: center;
-  padding: 0;
-}
-
