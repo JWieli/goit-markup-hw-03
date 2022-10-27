@@ -73,6 +73,7 @@ menu {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
+  padding: 0;
 }
 
 .nav1 {
@@ -105,7 +106,6 @@ menu {
 .header-list2 {
   display: flex;
   padding: 32px 0;
-  /* margin: 32px 0px 32px 0; */
   line-height: 1.17rem;
   width: 295px;
   gap: 50px;
@@ -140,10 +140,10 @@ menu {
 
 .box-hugetext {
   display: flex;
-  width: 696px;
-  height: 120px;
+  flex-direction: row;
   text-align: center;
-  margin: 200px 452px 30px 452px;
+  padding: 200px 0px 30px 0px;
+  margin: 0;
 }
 .hugetext {
   font-weight: 900;
@@ -167,7 +167,6 @@ menu {
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
-  margin: 0 700px 200px 700px;
   width: 200px;
   height: 50px;
 }
@@ -264,7 +263,6 @@ section {
   height: 368px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-
 }
 
 .names {
