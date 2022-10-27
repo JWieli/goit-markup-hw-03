@@ -219,6 +219,7 @@ h3 {
 .segments {
   display: flex;
   flex-direction: column;
+  padding: 94px 0;
 }
 
 .section {
@@ -230,13 +231,16 @@ h3 {
   font-size: 36px;
   line-height: 1.17rem;
   padding-bottom: 50px;
-  /* czy tu powinien być też margin:0? bo strona się rozjeżdza ale z drugiej strony powstaje 29.88+90 zamiast po prostu 90 u góry_ */
+  margin: 0;
+  /* czy tu powinien być też margin:0? bo strona się rozjeżdza ale z drugiej strony powstaje 29.88+90 zamiast po prostu 90 u góry_ dodatkowo czy line-height jest konieczny?*/
 }
 
 .segments-list {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  padding: 0;
+  margin: 0;
 }
 
 .segments-photos {
@@ -248,6 +252,7 @@ h3 {
   background-color: var(--second-white);
   display: flex;
   flex-direction: column;
+  padding: 94px 0;
 }
 
 .our-team-header {
@@ -255,6 +260,8 @@ h3 {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
 }
 
 .our-team-photos {
@@ -262,6 +269,8 @@ h3 {
   flex-direction: row;
   gap: 30px;
   padding-bottom: 94px;
+  margin: 0;
+  padding: 0;
 }
 .photos {
   background-color: var(--main-white);
@@ -294,6 +303,7 @@ h3 {
 .footer {
   background-color: var(--background);
   flex-direction: column;
+  display: flex;
 }
 
 .section-footer {
@@ -343,6 +353,8 @@ h3 {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  margin: 0;
+  padding-bottom: 9px;
 }
 
 .mail-footer {
@@ -350,16 +362,16 @@ h3 {
   font-size: 14px;
   line-height: 1.71;
   color: var(--silver);
-  width: 231px;
-  height: 21px;
+
+  padding-bottom: 9px;
 }
 
 .phone-footer {
   font-weight: 400;
   font-size: 14px;
   color: var(--silver);
-  width: 231px;
-  height: 21px;
+
+  padding-bottom: 9px;
 }
 
 .main-sections-portfolio {
