@@ -32,8 +32,8 @@ header {
   text-decoration: none;
   line-height: 1.17;
   color: var(--blue);
-  margin: 24px 0 25px 0;
-  /* czy lepiej padding: 25px 0; */
+  padding: 25px 0;
+
 }
 .Webstudio-header {
   font-weight: bold;
@@ -45,14 +45,13 @@ header {
   font-size: 26px;
   text-decoration: none;
   line-height: 1.17;
-  margin: 24px 0 25px 0;
-  /* i tu też padding czy lepiej? */
+  padding: 25px 0;
 }
 
 .main-header {
   width: 145px;
   height: 31px;
-  margin: 24px 93px 25px 0px;
+  padding: 24px 93px 25px 0px;
 }
 
 .header-list1 {
@@ -200,9 +199,6 @@ h3 {
   width: 270px;
   height: 75px;
 }
-.lorem-box {
-  flex-direction: row;
-}
 
 .lorem {
   display: flex;
@@ -214,16 +210,6 @@ h3 {
 .list-lorem {
   width: calc((100% - 45px) / 4);
   gap: 30px;
-}
-
-.segments {
-  display: flex;
-  flex-direction: column;
-  padding: 94px 0;
-}
-
-.section {
-  padding-top: 94px;
 }
 
 .segments-header {
@@ -251,7 +237,6 @@ h3 {
   background-color: var(--second-white);
   display: flex;
   flex-direction: column;
-  padding: 94px 0;
 }
 
 .our-team-header {
@@ -267,7 +252,6 @@ h3 {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  padding-bottom: 94px;
   margin: 0 auto;
   padding: 0;
 }
@@ -369,11 +353,11 @@ h3 {
   color: var(--silver);
 }
 
-.main-sections-portfolio {
+/* .main-sections-portfolio {
   display: flex;
   flex-direction: row;
   padding: 0px;
-}
+} */
 
 /*czy to jest potrzebne? */
 
@@ -444,9 +428,17 @@ h3 {
   padding-bottom: 30px;
   margin: 0 auto;
 }
-.main-portfolio {
+
+.section {
   padding: 94px 0;
 }
+
+.segments {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+}
+
 
 .hover:hover,
 .hover:focus {
