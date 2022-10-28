@@ -61,7 +61,7 @@ header {
   width: 254px;
   height: 16px;
   margin: 32px 371px 32px 0px;
-  line-height: 1.17rem;
+  line-height: 1.17;
   gap: 46px;
 }
 
@@ -81,7 +81,7 @@ menu {
   color: var(--black2);
   font-size: 14px;
   text-decoration: none;
-  line-height: 16px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
 }
 .nav2 {
@@ -90,7 +90,7 @@ menu {
   width: 58px;
   color: var(--black2);
   text-decoration: none;
-  line-height: 16px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
 }
 .nav3 {
@@ -99,14 +99,14 @@ menu {
   width: 51px;
   color: var(--black2);
   text-decoration: none;
-  line-height: 16px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
 }
 
 .header-list2 {
   display: flex;
   padding: 32px 0;
-  line-height: 1.17rem;
+  line-height: 1.17;
   width: 295px;
   gap: 50px;
   flex-direction: row;
@@ -229,10 +229,9 @@ h3 {
 .segments-header {
   text-align: center;
   font-size: 36px;
-  line-height: 1.17rem;
+  line-height: 1.17;
   padding-bottom: 50px;
   margin: 0;
-  /* czy tu powinien być też margin:0? bo strona się rozjeżdza ale z drugiej strony powstaje 29.88+90 zamiast po prostu 90 u góry_ dodatkowo czy line-height jest konieczny?*/
 }
 
 .segments-list {
@@ -269,7 +268,7 @@ h3 {
   flex-direction: row;
   gap: 30px;
   padding-bottom: 94px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 .photos {
@@ -336,7 +335,7 @@ h3 {
 
 .footer-list {
   display: flex;
-  line-height: 1.17rem;
+  line-height: 1.17;
   flex-direction: column;
   padding: 0;
 }
@@ -374,7 +373,6 @@ h3 {
   display: flex;
   flex-direction: row;
   padding: 0px;
-  
 }
 
 /*czy to jest potrzebne? */
@@ -410,6 +408,12 @@ h3 {
   background-color: var(--second-white);
   border: 1px solid rgba(238, 238, 238, 1);
   margin: 0 auto;
+}
+
+.button-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .projects {
