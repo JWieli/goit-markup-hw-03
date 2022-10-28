@@ -373,16 +373,19 @@ h3 {
 .main-sections-portfolio {
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 0px;
+  
 }
 
 /*czy to jest potrzebne? */
 
 .main-section-buttons {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  padding: 0;
+  gap: 8px;
+  padding-bottom: 34px;
+  margin: 0 auto;
 }
 
 .buttons {
@@ -395,9 +398,10 @@ h3 {
   border: none;
   cursor: pointer;
   border-radius: 4px;
-  margin-right: 8px;
-
-  /* dlaczego nie działa tu gap? */
+  align-items: center;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-all {
@@ -405,6 +409,7 @@ h3 {
   height: 404px;
   background-color: var(--second-white);
   border: 1px solid rgba(238, 238, 238, 1);
+  margin: 0 auto;
 }
 
 .projects {
@@ -432,6 +437,8 @@ h3 {
   gap: 30px;
   align-items: center;
   padding: 0;
+  padding-bottom: 30px;
+  margin: 0 auto;
 }
 .main-portfolio {
   padding: 94px 0;
